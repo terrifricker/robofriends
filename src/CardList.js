@@ -3,20 +3,21 @@ import Card from './Card'
 
 const CardList = ({robots}) => {
     return (
-        <div>
-            {
+        <>
+            {   
                 robots.map((robot, i) => {
+                    console.log(robot)
                     return (
                         <Card
-                            key={robots[i].id}
-                            id={robots[i].id}
-                            name={robots[i].name}
-                            email={robots[i].email}
+                            key={robot.id}
+                            id={robot.id}
+                            name={robot.name}
+                            email={robot.email}
                         />
                     )
                 })
             }
-        </div>
+        </>
     )
 }
 
