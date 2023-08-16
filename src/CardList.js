@@ -6,7 +6,6 @@ const CardList = ({robots}) => {
         <>
             {   
                 robots.map(robot => {
-                    console.log(robot)
                     return (
                         <Card
                             key={robot.id}
