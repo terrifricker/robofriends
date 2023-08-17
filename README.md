@@ -1,5 +1,5 @@
-#To run the project
+# To run the project
 
 1. Clone the repository
-2. run `npm install`
-3. run `npm run`
+1. run `npm install`
+1. run `npm run`
