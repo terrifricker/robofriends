@@ -1,4 +1,6 @@
-# To run the project
+# RoboFriends
+
+## To run the project
 
 1. Clone the repository
 1. run `npm install`
